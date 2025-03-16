@@ -5,7 +5,7 @@
 **This software is licensed under the GNU General Public License v3.0 (GPL-3.0).** Any derivative work must be distributed under the same license terms. You **MUST** open-source your modified version if you deploy this software in production.
 
 
-![GitHub](https://img.shields.io/github/license/yourusername/openai-forward)
+![GitHub](https://img.shields.io/github/license/zwpride/openai-forward)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 [![FastAPI](https://img.shields.io/badge/Framework-FastAPI-green)](https://fastapi.tiangolo.com/)
 
