@@ -9,7 +9,7 @@
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 [![FastAPI](https://img.shields.io/badge/Framework-FastAPI-green)](https://fastapi.tiangolo.com/)
 
-A flexible proxy server that enables seamless integration between OpenAI-compatible clients and various LLM API providers (e.g., Alibaba Cloud DashScope) with enhanced logging, protocol translation, and compatibility features.
+A flexible proxy server that enables seamless integration between OpenAI-compatible clients and various LLM API providers (e.g., `Alibaba Cloud DashScope`, `VLLM`, `Ollama`...) with enhanced logging, protocol translation, and compatibility features.
 
 ## Key Features
 
@@ -55,7 +55,7 @@ python app.py \
 | `--expose_host`  | Binding address                              | `0.0.0.0`                            |
 | `--expose_port`  | Listening port                               | `58080`                              |
 | `--mode`         | Upstream comm mode [stream\|non_stream\|off] | `off`                                |
-| `--url`          | Target API endpoint                          | OpenAI compatibility endpoint, like VLLM, DashScope, Ollama...     |
+| `--url`          | Target API endpoint                          | OpenAI compatibility endpoint (e.g., `Alibaba Cloud DashScope`, `VLLM`, `Ollama`...)     |
 | `--timeout`      | API timeout (ms)                             | `60000`                              |
 | `--compatible`   | Force 200 status for errors                  | `False`                              |
 
