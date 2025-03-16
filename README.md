@@ -64,8 +64,10 @@ python app.py \
 
 | URL Endpoint Doc | URL |
 | --- | --- |
-| `Dashscope` / `Qwen` | `https://help.aliyun.com/zh/model-studio/developer-reference/use-qwen-by-calling-api` |
-| `OpenAI` | `https://platform.openai.com/docs/api-reference` |
+| `Dashscope` / `Qwen` | `https://help.aliyun.com/zh/model-studio/developer-reference/use-qwen-by-calling-api`   |
+| `OpenAI`             | `https://platform.openai.com/docs/api-reference`                                        |
+| `VLLM`               | `https://docs.vllm.ai/en/latest/api/inference_params.html`                              |
+
 
 ## 📚 Usage Examples
 
